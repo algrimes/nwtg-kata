@@ -24,6 +24,7 @@ end
 gem 'jquery-rails'
 
 group :test do
+  gem 'ruby-debug19', :require => 'ruby-debug'
   gem 'cucumber-rails'
   gem 'rspec-rails'
   gem 'database_cleaner'
