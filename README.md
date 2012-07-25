@@ -1,4 +1,25 @@
 nwtg-kata
 =========
 
-Rails app for an automated acceptance testing kata
+Rails app for an atdd kata
+
+Dependencies - 
+
+Ruby1.9.2
+bundler gem
+
+Windows:
+
+DevKit installed for Ruby
+
+OSX:
+
+XCode or standalone GCC Compiler installed
+
+Linux:
+
+Debian: package 'sqlite3'
+
+Running:
+
+from the app root: bundle exec rails s
