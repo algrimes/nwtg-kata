@@ -22,6 +22,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'therubyracer'
 
 group :test do
   gem 'ruby-debug19', :require => 'ruby-debug'
