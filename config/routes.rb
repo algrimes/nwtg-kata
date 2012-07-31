@@ -1,4 +1,7 @@
 NwtgKata::Application.routes.draw do
+
+  root :to => "application#index"
+
   get "members/new"
 
   get "members/index"
