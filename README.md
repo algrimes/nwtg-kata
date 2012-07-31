@@ -22,4 +22,10 @@ Debian: package 'sqlite3'
 
 Running:
 
-from the app root: bundle exec rails s
+from the app root: 
+
+bundle exec rails s
+
+if you are asked about missing gems, run:
+
+bundle install
