@@ -1,4 +1,10 @@
 NwtgKata::Application.routes.draw do
+  get "members/new"
+
+  get "members/index"
+
+  post "members/create"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
