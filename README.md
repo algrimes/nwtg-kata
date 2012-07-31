@@ -5,8 +5,8 @@ Rails app for an atdd kata
 
 Dependencies - 
 
-Ruby1.9.2
-bundler gem
+Ruby1.9.2 or greater
+'bundler' gem
 
 Windows:
 
@@ -16,9 +16,12 @@ OSX:
 
 XCode or standalone GCC Compiler installed
 
-Linux:
-
-Debian: package 'sqlite3'
+Ubuntu/other Debian Linux:
+Packages:
+libxml2-dev
+libxslt-dev
+libsqlite3-dev
+libv8-3.7.12.22
 
 Running:
 
