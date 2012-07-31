@@ -12,6 +12,5 @@ When /^the following new member is added:$/ do |table|
 end
 
 Then /^the message "([^"]*)" is displayed$/ do |message|
-  sleep(5)
   page.should have_content(message)
 end
